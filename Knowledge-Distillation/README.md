@@ -5,6 +5,7 @@ So, [BERT-base](https://huggingface.co/textattack/bert-base-uncased-SST-2) will 
 
  This idea comes from the [DistilBERT](https://arxiv.org/pdf/1910.01108.pdf) paper where it was shown that a student performed better than simply finetuning the distilled language model.
 
+ 
 -----------
 ## Google Colab:  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/grgera/Effective-DL-techniques/Knowledge-Distillation/blob/main/distill_pipeline.ipynb)
 ___________
