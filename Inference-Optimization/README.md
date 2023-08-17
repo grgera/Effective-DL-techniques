@@ -21,7 +21,6 @@ Quantization gave us the most significant improvement in inference speed. After 
 | Quantization | 388ms   | 180ms   |  92ms | 50ms | **56.2x** |
 
 ---------
-
 ## GPU results
 GPU support isn’t provided for quantization in Pytorch yet. Although TorchScript wasn't created for speedup improvement, it still yield solid 20% boost versus non-traced model.
 
@@ -32,5 +31,4 @@ FP16 ONNX model showed us very good performance gains. And there are more optimi
 | PyTorch | 16.1ms   | 12.1ms   |  11.9ms |  11.9ms | **0.0x** |
 | TorchScript | 15.9ms  | 11.2ms   |  9.2ms | 8.92ms | **18x** |
 | ONNX Runtime | 14.2ms   | 10.0ms  |  8.14ms | 7.57ms | **35x** |
-
 ---------
