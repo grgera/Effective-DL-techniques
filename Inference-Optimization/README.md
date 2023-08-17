@@ -21,6 +21,7 @@ Quantization gave us the most significant improvement in inference speed. After 
 | Quantization | 388ms   | 180ms   |  92ms | 50ms | **56.2x** |
 
 ---------
+
 ## GPU results
 GPU support isn’t provided for quantization in Pytorch yet. Although TorchScript wasn't created for speedup improvement, it still yield solid 20% boost versus non-traced model.
 

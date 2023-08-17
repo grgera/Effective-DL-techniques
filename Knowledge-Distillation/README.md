@@ -7,7 +7,7 @@ So, [BERT-base](https://huggingface.co/textattack/bert-base-uncased-SST-2) will 
 
 -----------
 ## Google Colab:  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/grgera/Effective-DL-techniques/Knowledge-Distillation/blob/main/distill_pipeline.ipynb)
-___
+___________
 ## Results
 Distilled BERT-Tiny has **96%** less parameters than the teacher BERT-base and runs **~46.5x** faster while preserving over **90%** of BERT’s performances as measured on the test par of SST2 dataset.
 
